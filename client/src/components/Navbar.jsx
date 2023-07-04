@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../assets/img/Pandulipi Logo.png";
+import Logo from "../assets/img/Pandulipi Logo.webp";
 import "../components/navbar.css";
 import { useAuthContext } from "../hooks/useAuthContext";
 import { useLogout } from "../hooks/useLogout";

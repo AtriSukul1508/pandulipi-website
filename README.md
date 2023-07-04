@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./client/src/assets/img/Pandulipi Logo.png" alt="Pandulipi" width="250">
+    <img src="./client/src/assets/img/Pandulipi Logo.webp" alt="Pandulipi" width="250">
   <h1 align="center">Pandulipi - Official Website</h1>
 </p>
 

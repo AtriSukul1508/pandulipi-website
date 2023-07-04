@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import Modal from './Modal';
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import './style.css';
-import RabindraJayanti from "../../assets/events/20220509_111512.jpg"
-import WorldPoetryDay from "../../assets/events/FB_IMG_1682606523921.jpg"
-import WallMagazine from "../../assets/events/FB_IMG_1682606237926.jpg"
-import BudSpeak from "../../assets/events/FB_IMG_1682606032567.jpg"
+import RabindraJayanti from "../../assets/events/20220509_111512.webp"
+import WorldPoetryDay from "../../assets/events/FB_IMG_1682606523921.webp"
+import WallMagazine from "../../assets/events/FB_IMG_1682606237926.webp"
+import BudSpeak from "../../assets/events/FB_IMG_1682606032567.webp"
 
 const Album1 = () => {
     const column1 = [

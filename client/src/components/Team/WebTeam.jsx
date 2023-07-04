@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import Card from "./Card";
-import arjun_choudhury_img from "../../assets/team/Arjun Choudhury.jpg"
-import atri_sukul_img from "../../assets/team/Atri Sukul.jpg"
-import sayan_kr_bhowmick_img from "../../assets/team/Sayan Kumar Bhowmick.jpg"
-import wasim_reja_img from "../../assets/team/Wasim Reja.jpeg"
-import samrat_sadhu_img from '../../assets/team/Samrat Sadhu.jpg'
+import arjun_choudhury_img from "../../assets/team/WebTeam/Arjun Choudhury.webp";
+import atri_sukul_img from "../../assets/team/WebTeam/Atri Sukul.webp";
+import sayan_kr_bhowmick_img from "../../assets/team/WebTeam/Sayan Kumar Bhowmick.webp";
+import samrat_sadhu_img from "../../assets/team/WebTeam/Samrat Sadhu.webp";
+import wasim_reja_img from "../../assets/team/WebTeam/Wasim Reja.webp";
+
 const webTeamDetails = [
   {
     name: "WASIM REJA",
     designation: "Frontend Lead",
     department: "Information Technology",
-    imgLink:
-      wasim_reja_img,
+    imgLink: wasim_reja_img,
     linkedin: "https://www.linkedin.com/in/wasimreja/",
     github: "https://github.com/wasimreja/",
   },
@@ -19,8 +19,7 @@ const webTeamDetails = [
     name: "SAMRAT SADHU",
     designation: "Backend Lead",
     department: "Electronics & Communication Engineering",
-    imgLink:
-    samrat_sadhu_img,
+    imgLink: samrat_sadhu_img,
     linkedin: "https://www.linkedin.com/in/samrat-sadhu-744874202",
     github: "https://github.com/Samrat-14",
   },
@@ -28,8 +27,7 @@ const webTeamDetails = [
     name: "ARJUN CHOUDHURY",
     designation: "Frontend Developer",
     department: "Information Technology",
-    imgLink:
-      arjun_choudhury_img,
+    imgLink: arjun_choudhury_img,
     linkedin: "https://www.linkedin.com/in/arjun-choudhury-469671227/",
     github: "https://github.com/arjunchoudhury07",
   },
@@ -37,8 +35,7 @@ const webTeamDetails = [
     name: "ATRI SUKUL",
     designation: "Backend Developer",
     department: "Computer Science & Engineering",
-    imgLink:
-      atri_sukul_img,
+    imgLink: atri_sukul_img,
     linkedin: "https://www.linkedin.com/in/atri-sukul-35a9b022a/",
     github: "https://github.com/AtriSukul1508",
   },
@@ -46,8 +43,7 @@ const webTeamDetails = [
     name: "SAYAN KUMAR BHOWMICK",
     designation: "Frontend Developer",
     department: "Computer Science & Engineering",
-    imgLink:
-    sayan_kr_bhowmick_img,
+    imgLink: sayan_kr_bhowmick_img,
     linkedin: "https://www.linkedin.com/in/sayankr007",
     github: "https://github.com/Sayankumar007",
   },
@@ -55,16 +51,16 @@ const webTeamDetails = [
 
 const WebTeam = () => {
   const [show, setShow] = useState(false);
-  const [currentInd,setCurrentInd] = useState(0);
+  const [currentInd, setCurrentInd] = useState(0);
 
   return (
-    <div className="bg-[#252b42]">
+    <div className="bg-[#252b42]  w-screen">
       <h1 className="text-center text-5xl p-10 text-[#fff]">
         Meet the Web Team
       </h1>
-      <div>
-        <div className="flex justify-center items-center flex-wrap gap-x-32 gap-y-8 px-10 pb-10 mt-4">
-          {webTeamDetails.map((details,ind) => (
+      <div className="pb-10">
+        <div className="flex justify-center items-center flex-wrap gap-x-32 gap-y-8 px-10 mt-4">
+          {webTeamDetails.map((details, ind) => (
             <div className="flex flex-col items-center gap-4">
               <div className="relative">
                 <img
@@ -101,11 +97,13 @@ const WebTeam = () => {
           ))}
         </div>
       </div>
-      <Card onClose={() => setShow(false)} show={show} details={webTeamDetails[currentInd]}/>
+      <Card
+        onClose={() => setShow(false)}
+        show={show}
+        details={webTeamDetails[currentInd]}
+      />
     </div>
   );
 };
-
-
 
 export default WebTeam;

@@ -1,12 +1,12 @@
 import React from "react";
 import "./library.css";
 
-import cover_2018 from "../../assets/img/2018.png";
-import cover_2016 from "../../assets/img/2016.png";
-import cover_2014 from "../../assets/img/2014.png";
-import cover_1990 from "../../assets/img/1990.png";
-import cover_1985 from "../../assets/img/1985.png";
-import cover_1982 from "../../assets/img/1982.png";
+import cover_2018 from "../../assets/img/2018.webp";
+import cover_2016 from "../../assets/img/2016.webp";
+import cover_2014 from "../../assets/img/2014.webp";
+import cover_1990 from "../../assets/img/1990.webp";
+import cover_1985 from "../../assets/img/1985.webp";
+import cover_1982 from "../../assets/img/1982.webp";
 
 const MagazineMore = () => {
   const MoreMagazineDetails = [

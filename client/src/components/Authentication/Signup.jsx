@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/img/Pandulipi Logo - White.png";
+import logo from "../../assets/img/Pandulipi Logo - White.webp";
 import { useSignup } from "../../hooks/useSignup";
 
 const Signup = () => {

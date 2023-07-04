@@ -2,13 +2,21 @@ import React from "react";
 import "./library.css";
 import ToggleVisibility from "./ToggleShow";
 import MagazineMore from "./MoreMagazines";
-import cover_2022 from "../../assets/img/2022.png";
-import cover_2021 from "../../assets/img/2021.png";
-import cover_2020 from "../../assets/img/2020.png";
-import cover_2019 from "../../assets/img/2019.png";
+import cover_2023 from "../../assets/img/2023.webp";
+import cover_2022 from "../../assets/img/2022.webp";
+import cover_2021 from "../../assets/img/2021.webp";
+import cover_2020 from "../../assets/img/2020.webp";
+import cover_2019 from "../../assets/img/2019.webp";
 
 const Magazine = () => {
   const magazineDetails = [
+    {
+      name: "Pandulipi",
+      year: "2023",
+      imgLink: cover_2023,
+      downloadLink:
+        "https://drive.google.com/file/d/1P8tRJWrcVIaFiIfCvw3tyLu_YIqMx3jI/view?usp=share_link",
+    },
     {
       name: "Pandulipi",
       year: "2022",
